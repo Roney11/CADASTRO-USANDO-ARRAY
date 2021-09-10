@@ -25,7 +25,7 @@ function pegarForm() {
         alert('Digite uma senha')
     }else {
         pessoa.push (firstName, lastName, email, password)
-        console.log(pessoa)
+        alert('Cadastro feito com sucesso')
     }
 }
 
@@ -36,6 +36,7 @@ function pegarForm() {
 function abrirModalLogin() {
     const abrir = document.querySelector('.login')
     abrir.style.marginLeft = '0'
+
 }
 
 
